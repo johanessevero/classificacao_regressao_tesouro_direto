@@ -22,5 +22,7 @@ Modelos treinados para classificação e regressão de taxa de rendimento na ven
       - nome_titulo: corresponde ao nome ou descrição do título do Tesouro Direto. Essa informação fornece detalhes sobre o tipo de título e seu vencimento.
   - Montagem da base de treino e teste com os indicadores calculados para treinamento do modelo de regressão e classificação;
   - Avaliação do modelo.
+ 
+- *Por questões de simplicidade nesse repositório somente foi adicionado os notebooks com a avaliação do modelo nos dados de teste.
 
 
