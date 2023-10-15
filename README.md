@@ -4,14 +4,16 @@ Modelos treinados para classificação e regressão de taxa de rendimento na ven
 
 - Consistiu das seguintes etapas:
   - Extração os dados dos arquivos de preços e taxas:
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/LTN_2023.xls',
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/NTN-C_2023.xls',
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/NTN-B_2023.xls',
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/NTN-F_2023.xls',
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/LFT_2023.xls',
-    - 'https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/sistd/2023/NTN-B_Principal_2023.xls'
+    - LTN_*ano*.xls',
+    - NTN-C_*ano*.xls',
+    - NTN-B_*ano*.xls',
+    - NTN-F_*ano*.xls',
+    - LFT_*ano*.xls',
+    - NTN-B_Principal_*ano*.xls'
+    - Disponíveis em: https://www.tesourodireto.com.br/titulos/historico-de-precos-e-taxas.htm
   - Criação da base de dados no sqlite:
     -  <img src = 'mr_historico_titulo.png'>
+    ![image](https://github.com/johanessevero/classificacao_regressao_tesouro_direto/assets/22893251/2f1bbdb1-de5f-4763-bcd5-74dc638b54c3)
     - Os dados sobre títulos do Tesouro Direto brasileiro fornecem informações específicas sobre um título:
       - data: refere-se à data em que os valores foram registrados ou atualizados.
       - taxa_compra: indica a taxa de compra associada ao título na data específica.
